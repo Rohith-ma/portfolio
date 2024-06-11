@@ -1,5 +1,4 @@
 const menu = document.getElementById("menu");
-
 function mobilemenu(){
     if(menu.style.display === "block"){
         menu.style.display = "none";
@@ -8,3 +7,4 @@ function mobilemenu(){
         menu.style.display="block"
     }
 }
+
