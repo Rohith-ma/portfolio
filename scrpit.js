@@ -6,5 +6,16 @@ function mobilemenu(){
     else{
         menu.style.display="block"
     }
+};
+const projects = document.querySelector(".projects");
+const morebtn = document.getElementById("morebtn");
+
+function more(event) {
+    if (projects.style.display === "block") {
+        morebtn.setAttribute('href', 'projects.html');
+    } else {
+        projects.style.display = "block";
+        event.preventDefault();
+    }
 }
 
